@@ -10,11 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/xyyjk/hexo-generator-hexo-ghost-exporter.git"
   },
-  "keywords": ["hexo-ghost-exporter"],
+  "keywords": [
+    "hexo-ghost-exporter"
+  ],
   "author": "xyyjk",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xyyjk/hexo-generator-hexo-ghost-exporter/issues"
   },
-  "homepage": "https://github.com/xyyjk/hexo-generator-hexo-ghost-exporter#readme"
+  "homepage": "https://github.com/xyyjk/hexo-generator-hexo-ghost-exporter#readme",
+  "dependencies": {
+    "hexo-fs": "^0.2.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "pinyin": "^2.8.3"
+  }
 }
